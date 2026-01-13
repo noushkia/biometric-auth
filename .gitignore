@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Output files
+outputs/
+*.npz
+*.pkl
+*.h5
+
+# Large model files
+*.pth
+*.onnx
+models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Don't track datasets (they're large)
+# datasets/  # Uncomment if you don't want to track datasets
