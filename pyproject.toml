@@ -55,7 +55,7 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-v --cov=src/iris_encoder"
+addopts = "-v" # Removed --cov=src/iris_encoder
 
 [tool.black]
 line-length = 100
