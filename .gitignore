@@ -46,4 +46,5 @@ models/*.pt
 Thumbs.db
 
 # Don't track datasets (they're large)
-# datasets/  # Uncomment if you don't want to track datasets
+datasets/
+*.npy
